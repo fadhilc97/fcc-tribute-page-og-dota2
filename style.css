@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+html {
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: #242a3b;
+}
+
+#title {
+  text-align: center;
+}
+
+#title h1 {
+  padding-top: 20px;
+  font-size: 3rem;
+}
+
+#title p {
+  margin-top: -30px;
+}
+
+#img-div {
+  /* background-color: white; */
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#img-div img {
+  /*   width: 75%; */
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* #img-div figcaption {
+  color: white;
+} */
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+#tribute-info .team-news {
+  display: flex;
+}
+
+#tribute-info .team-news .team-news-item {
+  border: 1px solid white;
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+#tribute-info .team-news .team-news-item:hover {
+  font-size: 12.5pt;
+  transition: 0.3s;
+}
+
+#tribute-info .team-news .team-news-item p.team-news-title {
+  position: absolute;
+  bottom: 20px;
+}
+
+#tribute-info .team-news .team-news-item p.team-news-publish-date {
+  position: absolute;
+  bottom: 0;
+}
+
+#tribute-info .team-news #team-news-item-1 {
+  background-image: url(https://r5d4b7t7.stackpathcdn.com/wp-content/uploads/2020/12/ILTW.jpg);
+}
+
+#tribute-info .team-news #team-news-item-2 {
+  background-image: url(https://r5d4b7t7.stackpathcdn.com/wp-content/uploads/2020/10/ESLGER.jpg);
+}
+
+#tribute-footer {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#tribute-footer #tribute-link {
+  color: white;
+}
